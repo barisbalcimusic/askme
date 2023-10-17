@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Ask me</title>
+  </head>
+  <body>
+    <div class="container-div">
+      <div class="content-div">
+        <img src="images/rick.png" alt="" />
+        <p class="ask-me">ask me!</p>
+        <form method="POST">
+          <input class="input" id="input" type="text" name="inputValue" /><br /><br />
+          <input class="submit" id="submit" type="submit" value="go!" /><br /><br />
+        </form>
+        <div class="answer-div">
+          <p><%= answer %></p>
+        </div>
+        <p class="copyright-p">created by Baris Balci</p>
+      </div>
+    </div>
+  </body>
+</html>
